@@ -22,8 +22,10 @@ typedef struct connected_airport
 
 }connected_airport;
 
-
+//to create a graph
 void create_adjacency_list(FILE *fptr,struct airport** headOfAirportArray,struct connected_airport **adjacencyListHead,int numberOfAirport);
 
+//to print flights
+void direct_flights(struct connected_airport** Head,int airportId,int numberOfAirports,struct airport *airports);
 
 #endif // flight_h_

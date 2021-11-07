@@ -21,6 +21,10 @@ void fill_list_of_airports(FILE *fptr, struct airport **airports,int numberOfAir
 int airport_counter(FILE *fptr);
 
 //returns the index of given airport's IATA code
+//to work with airports id instead of strings
 int airport_mapper(char IATA[4],struct airport** headOfArray);
+
+//list all airports in the network
+void list_All_Airports(struct airport *airports,int numberOfAirport);
 
 #endif // airport_h_

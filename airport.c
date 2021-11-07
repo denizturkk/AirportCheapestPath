@@ -28,7 +28,6 @@ void fill_list_of_airports(FILE *fptr, struct airport **airports,int numberOfAir
         char city[15];
         char country[15];
 
-
        while(!feof(fptr))
        {
             fscanf(fptr,"%4s",IATA);
@@ -45,6 +44,15 @@ void fill_list_of_airports(FILE *fptr, struct airport **airports,int numberOfAir
 
        }
         fclose(fptr);
+
+}
+
+void list_All_Airports(struct airport *airports,int numberOfAirport)
+{
+    for(int i=0;i<numberOfAirport;i++)
+    {
+       printf("airport id:%d\t%5s\t%15s %15s \n",airports[i].airportId,airports[i].IATA,airports[i].city,airports[i].country);
+    }
 
 }
 
