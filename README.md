@@ -1,4 +1,4 @@
-# AirportCheapestPath(!NOT FINISHED!)
+# AirportCheapestPath
 In this project ı'am trying to implement Dijkstra's shortest path algorithm with adjacency list representation in C programing language.
 To do that, This program gets the airport network's and flight's data reading flight.txt and airports.txt files which contain the list of airports 
 and the list of flight information from one airport to another one. Every flight information which is stored in the flight.txt file 
