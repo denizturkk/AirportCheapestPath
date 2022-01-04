@@ -1,8 +1,8 @@
-# AirportCheapestPath
+# Cheapest Flight Finder 
 In this project, I have tried to make a flight advisor program to the 3rd party users.
 To do that, This program gets the  data of airport network and data of flights,reading flight.txt and airports.txt files which contain the list of airports 
 and the list of flight information from one airport to another one. Every flight information which is stored in the flight.txt file 
-is two directionals but written only 1 time.
+is two ways but written only 1 time.
 
 Example: SAW AYT 7
 it means that there are 2-way flights between these airports.The integer number which comes after the airport's IATA codes represents 
@@ -10,20 +10,6 @@ the cost of flights between these airports.
 
 -Dijkstra's shortest path algorithm with adjacency list representation is implemented in C programing language.
 
-A)Dijkstra's shortest path algorithm
-
-B)Priority queue for dijkstra(Min Heap)
-  B.1)MinHeapify
-  B.2)Decrease Key
-  B.3)ExtractMin
-  B.4)Is in min heap
-  B.5)Is empty 
-
-C)Graph Data structure (Adjacency List Representation)
-
-D)Stack Data structure(Needed to create the cheapest path through the calculted results by dijkstra algorithm)
- 
-  
 FEATURES
 
 1:List all airports in the network
