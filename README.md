@@ -14,10 +14,10 @@ FEATURES
 
 1:List all airports in the network
 2:list all the direct flights from an airport 
-3:list all direct flights of all airports 
+3:list all direct flights on the network
 4:list the min-cost path from an airport to destination airport(total cost of path,every flight info in the path,cost of every flight,detailed infos of transfers)
 5:list all min-cost flights from an airport to all another airports in the network
-  5.1:learn the path from source to an airport on the listed list(total cost of path,every flight info in the path,cost of every flight,detailed infos of transfers).
+  5.1:learn the path from source to an airport on the printed list(total cost of path,every flight info in the path,cost of every flight,detailed infos of transfers).
   
   
   
