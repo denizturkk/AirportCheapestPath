@@ -5,7 +5,7 @@ and the list of flight information from one airport to another one. Every flight
 is two ways but written only 1 time.
 
 Example: SAW AYT 7
-it means that there are 2-way flights between these airports.The integer number which comes after the airport's IATA codes represents 
+it means that there are 2-way flights between these airports.The integer  which comes after the airport's IATA codes represents 
 the cost of flights between these airports.
 
 -Dijkstra's shortest path algorithm with adjacency list representation is implemented in C programing language.
