@@ -1,4 +1,8 @@
 # Cheapest Flight Finder 
+
+Document that I created about Dijkstra algorithm 
+https://www.linkedin.com/feed/update/urn:li:activity:6922314559592497152/
+
 In this project, I have tried to make a flight advisor program to the 3rd party users.
 To do that, This program gets the  data of airport network and data of flights,reading flight.txt and airports.txt files which contain the list of airports 
 and the list of flight information from one airport to another one. Every flight information which is stored in the flight.txt file 
