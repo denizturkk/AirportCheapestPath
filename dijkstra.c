@@ -1,4 +1,5 @@
 #include "dijkstra.h"
+#include <limits.h>
 #include <stdio.h>
 #include "airport.h"
 #include "flight.h"
